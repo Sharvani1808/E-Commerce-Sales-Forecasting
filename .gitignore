@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.env
+*.log
+.DS_Store
+Thumbs.db
+*.tmpdata/online+retail.zip
+data/online+retail/
