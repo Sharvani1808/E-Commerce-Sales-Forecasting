@@ -68,3 +68,37 @@ Model Comparison
 30-Day Future Forecast
      ↓
 Visualization & Results
+
+## 📈 Model Results
+
+The forecasting models were evaluated using Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE).
+
+| Metric | Result |
+|---|---:|
+| MAE | 22,129.47 |
+| RMSE | 31,111.03 |
+| Average Actual Daily Sales | 46,712.45 |
+| Forecast Accuracy | 52.63% |
+
+The project also generated a 30-day future sales forecast using the trained time-series model.
+
+## 📁 Project Files
+
+- `analysis.py` – Main data analysis and forecasting code
+- `30_day_sales_forecast.csv` – 30-day future sales predictions
+- `arima_forecast_results.csv` – ARIMA forecasting results
+- `model_comparison.csv` – Model performance comparison
+- `project_summary.csv` – Project summary
+- `requirements.txt` – Python dependencies
+- `data/` – Dataset files
+
+## 🚀 How to Run
+
+1. Clone the repository.
+2. Create and activate a Python virtual environment.
+3. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+ 👩‍💻 Author
+Sharvani
